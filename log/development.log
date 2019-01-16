@@ -1,0 +1,1843 @@
+Started GET "/" for 127.0.0.1 at 2019-01-16 18:55:46 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 120ms (Views: 4.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:00:13 +0100
+  
+ActionController::RoutingError (uninitialized constant QuotesController):
+  
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:05:52 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1244ms (Views: 1129.5ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:14:45 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 295ms (Views: 168.3ms)
+
+
+Started POST "/quotes/new" for 127.0.0.1 at 2019-01-16 19:14:48 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/quotes/new"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:15:40 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 35ms (Views: 31.1ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:15:41 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 47ms (Views: 43.5ms)
+
+
+Started POST "/quotes/new" for 127.0.0.1 at 2019-01-16 19:15:45 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/quotes/new"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:19:46 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 254ms (Views: 136.5ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:19:50 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PLHmqskuegnqYunSAbzctjW6BBMcM3sVApDEfwrHNX5UvSOWVTDVaZSGi5vOZyysQ9zSvKGRigOJCVYCBf2xZA==", "quote"=>{"quote"=>"abc"}, "commit"=>"Save Quote"}
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 7ms (Views: 3.8ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (15.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateQuotes (20190116182059)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "quotes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190116182059"]]
+  [1m[35m (10.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-01-16 18:22:02.635821"], ["updated_at", "2019-01-16 18:22:02.635821"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:31:26 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 140ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:31:31 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"woQA2OfqzItFgy4p9Vkw735MEq4Td47K3mC7TGQtH5OqiMXke/Rj6ztnTGA6gsD1CCrEAa7Vf9xV+SkxaxebiQ==", "quote"=>{"quote"=>"qwer"}, "commit"=>"Save Quote"}
+Completed 400 Bad Request in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: article):
+  
+app/controllers/quotes_controller.rb:18:in `quote_params'
+app/controllers/quotes_controller.rb:10:in `create'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:33:24 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 140ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:33:42 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q2ekxAilG7aEPiOeh05HkXr1odOuromnhar5wolL7oTDa2H4lLu01vraQddIlbeLDJN3fBMMeLEOM2u/hnFqng==", "quote"=>{"quote"=>"qwerty"}, "commit"=>"Save Quote"}
+Unpermitted parameter: :quote
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "quotes" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2019-01-16 18:33:42.628848"], ["updated_at", "2019-01-16 18:33:42.628848"]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/1
+Completed 302 Found in 39ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/quotes/1" for 127.0.0.1 at 2019-01-16 19:33:42 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 37.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:34:42 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q2ekxAilG7aEPiOeh05HkXr1odOuromnhar5wolL7oTDa2H4lLu01vraQddIlbeLDJN3fBMMeLEOM2u/hnFqng==", "quote"=>{"quote"=>"qwerty"}, "commit"=>"Save Quote"}
+Unpermitted parameter: :quote
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "quotes" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2019-01-16 18:34:42.700895"], ["updated_at", "2019-01-16 18:34:42.700895"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/2
+Completed 302 Found in 9ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/quotes/2" for 127.0.0.1 at 2019-01-16 19:34:42 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:34:47 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 55ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:34:56 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQPdd6XeUuPZbqiZKaCi5Yfw4dr3ybmyFiXzd6/Wci3lDxhLOcD9g6eKytDme1L/8ZY3dUprSKSdvGEKoOz2Nw==", "quote"=>{"quote"=>"qweeqwr"}, "commit"=>"Save Quote"}
+Unpermitted parameter: :quote
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "quotes" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2019-01-16 18:34:56.943500"], ["updated_at", "2019-01-16 18:34:56.943500"]]
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/3
+Completed 302 Found in 45ms (ActiveRecord: 8.7ms)
+
+
+Started GET "/quotes/3" for 127.0.0.1 at 2019-01-16 19:34:56 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 54ms (Views: 48.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:37:03 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQPdd6XeUuPZbqiZKaCi5Yfw4dr3ybmyFiXzd6/Wci3lDxhLOcD9g6eKytDme1L/8ZY3dUprSKSdvGEKoOz2Nw==", "quote"=>{"quote"=>"qweeqwr"}, "commit"=>"Save Quote"}
+Unpermitted parameter: :quote
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.4ms)[0m  [1m[32mINSERT INTO "quotes" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2019-01-16 18:37:03.422904"], ["updated_at", "2019-01-16 18:37:03.422904"]]
+  [1m[35m (11.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/4
+Completed 302 Found in 50ms (ActiveRecord: 17.3ms)
+
+
+Started GET "/quotes/4" for 127.0.0.1 at 2019-01-16 19:37:03 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 46ms (Views: 39.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:38:16 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 84ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:38:21 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K1zgrj8XixjwdSsDr4hVWx2bfvUOxIboUDbhL/c9w0BDUCWSowkkeI6RSUpgU6VBa/2oWrNmd/7br3NS+AdHWg==", "quote"=>{"text"=>"qwerty"}, "commit"=>"Save Quote"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "qwerty"], ["created_at", "2019-01-16 18:38:21.559844"], ["updated_at", "2019-01-16 18:38:21.559844"]]
+  [1m[35m (10.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/5
+Completed 302 Found in 32ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/quotes/5" for 127.0.0.1 at 2019-01-16 19:38:21 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 29.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:38:42 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K1zgrj8XixjwdSsDr4hVWx2bfvUOxIboUDbhL/c9w0BDUCWSowkkeI6RSUpgU6VBa/2oWrNmd/7br3NS+AdHWg==", "quote"=>{"text"=>"Hi"}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "Hi"], ["created_at", "2019-01-16 18:38:42.705533"], ["updated_at", "2019-01-16 18:38:42.705533"]]
+  [1m[35m (11.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/6
+Completed 302 Found in 28ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/quotes/6" for 127.0.0.1 at 2019-01-16 19:38:42 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 34.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:38:45 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 66ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:38:49 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MYSlZ2XQCLFHPVtxjZ58O0glKaUnCi8CxxIIZzEtXcRZiGBb+c6n0TnZOThCRYwhPkP/Cpqo3hRMi5oaPhfZ3g==", "quote"=>{"text"=>"Hi"}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.4ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "Hi"], ["created_at", "2019-01-16 18:38:49.345671"], ["updated_at", "2019-01-16 18:38:49.345671"]]
+  [1m[35m (13.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/7
+Completed 302 Found in 37ms (ActiveRecord: 17.5ms)
+
+
+Started GET "/quotes/7" for 127.0.0.1 at 2019-01-16 19:38:49 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/6" for 127.0.0.1 at 2019-01-16 19:39:56 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 25.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/3" for 127.0.0.1 at 2019-01-16 19:40:02 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/4" for 127.0.0.1 at 2019-01-16 19:40:05 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 24.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/5" for 127.0.0.1 at 2019-01-16 19:40:08 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/6" for 127.0.0.1 at 2019-01-16 19:40:11 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/9" for 127.0.0.1 at 2019-01-16 19:40:14 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mQuote Load (0.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Quote with 'id'=9):
+  
+app/controllers/quotes_controller.rb:6:in `show'
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:46:57 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.1ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (217.5ms)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `quote' for #<#<Class:0x00007fb469b93550>:0x00007fb469b8a860>
+Did you mean?  @quotes):
+     9:       <%= article.text %>
+    10:     </td>
+    11:     <td>
+    12:       <%= link_to 'Show', quote_path(quote) %>
+    13:     </td>
+    14:   </tr>
+    15:   <% end %>
+  
+app/views/quotes/index.html.erb:12:in `block in _app_views_quotes_index_html_erb___844928686324600929_70206422311120'
+app/views/quotes/index.html.erb:6:in `_app_views_quotes_index_html_erb___844928686324600929_70206422311120'
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:47:25 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (307.3ms)
+Completed 500 Internal Server Error in 319ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `article' for #<#<Class:0x00007fb469b93550>:0x00007fb46890ce90>):
+     6:   <%= @quotes.each do |quote| %>
+     7:   <tr>
+     8:     <td>
+     9:       <%= article.text %>
+    10:     </td>
+    11:     <td>
+    12:       <%= link_to 'Show', quote_path(quote) %>
+  
+app/views/quotes/index.html.erb:9:in `block in _app_views_quotes_index_html_erb___844928686324600929_70206412655620'
+app/views/quotes/index.html.erb:6:in `_app_views_quotes_index_html_erb___844928686324600929_70206412655620'
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:47:38 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes/5" for 127.0.0.1 at 2019-01-16 19:47:41 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mQuote Load (0.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 34ms (Views: 27.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes/6" for 127.0.0.1 at 2019-01-16 19:47:44 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 100ms (Views: 93.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:49:35 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:50:07 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 31ms (Views: 26.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 19:52:24 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 19:52:33 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"08qIp83PTsT1nj2/8ui6sfdnrKVCGr6CNCxZtlqMFLC7xk2bUdHhpIt6X/Y9M0qrgQF6Cv+4T5S/tcvLVbaQqg==", "quote"=>{"text"=>"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (8.8ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"], ["created_at", "2019-01-16 18:52:33.357552"], ["updated_at", "2019-01-16 18:52:33.357552"]]
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/8
+Completed 302 Found in 38ms (ActiveRecord: 17.4ms)
+
+
+Started GET "/quotes/8" for 127.0.0.1 at 2019-01-16 19:52:33 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 44.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:52:38 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes/8" for 127.0.0.1 at 2019-01-16 19:52:45 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 72ms (Views: 66.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes/4" for 127.0.0.1 at 2019-01-16 19:52:50 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 95ms (Views: 86.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:53:59 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:55:41 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 41ms (Views: 37.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:55:58 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (1.1ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 65ms (Views: 60.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:55:58 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:56:36 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:57:31 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes/8" for 127.0.0.1 at 2019-01-16 19:57:39 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 47ms (Views: 41.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:58:49 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:59:06 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 64ms (Views: 59.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:59:08 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:59:09 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 38ms (Views: 34.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:59:37 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 82ms (Views: 78.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:59:38 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 46ms (Views: 41.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:59:46 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 79ms (Views: 73.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 19:59:52 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:00:08 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:00:22 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:00:39 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 73ms (Views: 68.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:02:10 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 73ms (Views: 68.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:05:32 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 146ms (Views: 137.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/7" for 127.0.0.1 at 2019-01-16 20:05:34 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 2.2ms)
+
+
+  
+SyntaxError (/home/kiryl/Рабочий стол/quotes/app/views/quotes/show.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd=( link_to 'Back' quotes_path );@output_buffer.safe_append...
+...                    ^~~~~~~~~~~):
+  
+app/views/quotes/show.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:05:36 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/8" for 127.0.0.1 at 2019-01-16 20:05:37 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/home/kiryl/Рабочий стол/quotes/app/views/quotes/show.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...nd=( link_to 'Back' quotes_path );@output_buffer.safe_append...
+...                    ^~~~~~~~~~~):
+  
+app/views/quotes/show.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/quotes/8" for 127.0.0.1 at 2019-01-16 20:06:13 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mQuote Load (0.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 149ms (Views: 134.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:06:15 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes/5" for 127.0.0.1 at 2019-01-16 20:06:17 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 40.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:06:17 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 87ms (Views: 81.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:07:32 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 73ms (Views: 66.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:07:34 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 92ms (Views: 88.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:07:35 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 61ms (Views: 56.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:07:39 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (1.0ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 65ms (Views: 58.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:08:28 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 144ms (Views: 135.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:08:29 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 70ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:08:44 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6xov7g9bbIwlIiBZaD51jhwFMOZgdPp9U+coYCpdIDRfELeVv5p46jtgpPstWQM0W1oRbMWt6+2yxXjwjQt4nA==", "quote"=>{"text"=>"Hello, world!"}, "commit"=>"Save Quote"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "Hello, world!"], ["created_at", "2019-01-16 19:08:44.060515"], ["updated_at", "2019-01-16 19:08:44.060515"]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/9
+Completed 302 Found in 17ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/quotes/9" for 127.0.0.1 at 2019-01-16 20:08:44 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 29.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:08:49 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 54ms (Views: 49.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:09:26 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:09:49 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tJpBfVUkWqiPp9gBaIWDKvubPFDBqIPoT5KtOy0YljMAkNkG5eVOzpHlXKMt4vWQvMQd2mRxkniusP2rik7Omw==", "quote"=>{"text"=>"I'm here YAY!!111!!1!1!"}, "commit"=>"Save Quote"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.5ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "I'm here YAY!!111!!1!1!"], ["created_at", "2019-01-16 19:09:49.488553"], ["updated_at", "2019-01-16 19:09:49.488553"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/10
+Completed 302 Found in 23ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/quotes/10" for 127.0.0.1 at 2019-01-16 20:09:49 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 72ms (Views: 68.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:09:52 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 36ms (Views: 31.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:11:45 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:11:49 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.5.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.5.0/gems/railties-5.1.6.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:13:04 +0100
+  
+ActionController::RoutingError (uninitialized constant IndexController):
+  
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:13:07 +0100
+  
+ActionController::RoutingError (uninitialized constant IndexController):
+  
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:13:43 +0100
+  
+ActionController::RoutingError (uninitialized constant IndexController):
+  
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:13:44 +0100
+  
+ActionController::RoutingError (uninitialized constant IndexController):
+  
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.6.1) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.6.1) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6.1) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6.1) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6.1) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:14:05 +0100
+  
+ArgumentError ('' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:14:12 +0100
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:14:13 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:14:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:14:15 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:14:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:16:19 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 37ms (Views: 32.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:16:32 +0100
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:16:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+actionpack (5.1.6.1) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6.1) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6.1) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6.1) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:16:44 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 40ms (Views: 35.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:18:53 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:19:18 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/8" for 127.0.0.1 at 2019-01-16 20:19:21 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 26.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:19:23 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 75ms (Views: 69.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes/10" for 127.0.0.1 at 2019-01-16 20:19:28 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:19:30 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 78ms (Views: 72.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/9" for 127.0.0.1 at 2019-01-16 20:19:32 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 84ms (Views: 77.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:19:34 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 84ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:19:38 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P/q85LaDeYi/FaTN/jeqBnS7vi01PmIPcSsG2DwzFA6L8CSfBkJt7qFXIG+7UNy8M+Sfp5Dnc5+QCVZIm2VMpg==", "quote"=>{"text"=>"sdhgopusgr"}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.1ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "sdhgopusgr"], ["created_at", "2019-01-16 19:19:38.655336"], ["updated_at", "2019-01-16 19:19:38.655336"]]
+  [1m[35m (9.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/11
+Completed 302 Found in 36ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/quotes/11" for 127.0.0.1 at 2019-01-16 20:19:38 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 52ms (Views: 45.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:19:40 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 43ms (Views: 38.3ms | ActiveRecord: 0.9ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "quotes"[0m
+  [1m[35mSQL (6.8ms)[0m  [1m[31mDELETE FROM "quotes"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "quotes"[0m
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:22:40 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 146ms (Views: 138.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:30:22 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (43.8ms)
+Completed 200 OK in 91ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:30:39 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J3aqmD1l2n8puR8r3wuI2ddc4QdEqWeApBKSKK3eFH2TfDLjjaTOGTf7m4mabP5jkAPAjeFwdhBFMMK4CohM1Q==", "quote"=>{"text"=>"The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward."}, "commit"=>"Save Quote"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward."], ["created_at", "2019-01-16 19:30:39.308128"], ["updated_at", "2019-01-16 19:30:39.308128"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/12
+Completed 302 Found in 55ms (ActiveRecord: 11.1ms)
+
+
+Started GET "/quotes/12" for 127.0.0.1 at 2019-01-16 20:30:39 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 31ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:30:41 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:31:00 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:31:06 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZXC7i2oL9X9nIAlqQXJsayqslTk+pdUj8rxinsCpGN7ReiPw2srhGXlijcgEFRrRbfO0s5t8xLMTnjIOZ/9Adg==", "quote"=>{"text"=>"Lord, make me an instrument of thy peace. Where there is hatred, let me sow love."}, "commit"=>"Save Quote"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "Lord, make me an instrument of thy peace. Where there is hatred, let me sow love."], ["created_at", "2019-01-16 19:31:06.046263"], ["updated_at", "2019-01-16 19:31:06.046263"]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/13
+Completed 302 Found in 19ms (ActiveRecord: 7.3ms)
+
+
+Started GET "/quotes/13" for 127.0.0.1 at 2019-01-16 20:31:06 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:31:11 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:31:28 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 77ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:31:31 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pt1eoXN1ArK9YiLy9IAKiLbeqjbA83+qdvuEvONRXeES18baw7QW1KMgplCx53wy8YGLvGUqbjqX2dQsRAcFSQ==", "quote"=>{"text"=>"No act of kindness, no matter how small, is ever wasted."}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "No act of kindness, no matter how small, is ever wasted."], ["created_at", "2019-01-16 19:31:31.597129"], ["updated_at", "2019-01-16 19:31:31.597129"]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/14
+Completed 302 Found in 36ms (ActiveRecord: 17.7ms)
+
+
+Started GET "/quotes/14" for 127.0.0.1 at 2019-01-16 20:31:31 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 25.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:31:32 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 77ms (Views: 71.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:31:41 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 86ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:31:44 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4iP5lceKf6uwgzGZ/ZKrv1bVI9+BAC501YRlkg7maz9WKWHud0trza7BtTu49d0FEYoCVSTZP+Q0pjUCqbAzlw==", "quote"=>{"text"=>"Permanence, perseverance and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak."}, "commit"=>"Save Quote"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "Permanence, perseverance and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak."], ["created_at", "2019-01-16 19:31:44.464936"], ["updated_at", "2019-01-16 19:31:44.464936"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/15
+Completed 302 Found in 19ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/quotes/15" for 127.0.0.1 at 2019-01-16 20:31:44 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 44ms (Views: 39.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:31:46 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 60ms (Views: 54.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:31:55 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 70ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:31:58 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dVJ+6BTq8C7V+Z6rXU8zEZtYG0BYGkQin9f4Y8FEtNHBWOaTpCvkSMu7GgkYKEWr3Ac6yv3DVbJ+9ajzZhLseQ==", "quote"=>{"text"=>"There is only one corner of the universe you can be certain of improving, and that's your own self."}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "There is only one corner of the universe you can be certain of improving, and that's your own self."], ["created_at", "2019-01-16 19:31:58.624418"], ["updated_at", "2019-01-16 19:31:58.624418"]]
+  [1m[35m (11.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/16
+Completed 302 Found in 37ms (ActiveRecord: 14.6ms)
+
+
+Started GET "/quotes/16" for 127.0.0.1 at 2019-01-16 20:31:58 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 26.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:32:00 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.7ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 52ms (Views: 47.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:32:11 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 102ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:32:15 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GBmty4BJ0z9imE0Sgyy0qklIsb2by6hDzwv1BEpT81OsEzWwMIjHWXzaybDGS8IQDheQNz4SudMuKaWU7QWr+w==", "quote"=>{"text"=>"I have not failed. I've just found 10,000 ways that won't work."}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.7ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "I have not failed. I've just found 10,000 ways that won't work."], ["created_at", "2019-01-16 19:32:15.847076"], ["updated_at", "2019-01-16 19:32:15.847076"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/17
+Completed 302 Found in 30ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/quotes/17" for 127.0.0.1 at 2019-01-16 20:32:15 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:32:17 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 60ms (Views: 54.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:32:28 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 89ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:32:31 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vltCNZsVooF+SBwLgAJrwrEGR/djtAPG3/gOcwZbLsMKUdpOK9S252AKmKnFZR149llmfcZtElY+2l7joQ12aw==", "quote"=>{"text"=>"Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom."}, "commit"=>"Save Quote"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom."], ["created_at", "2019-01-16 19:32:31.470758"], ["updated_at", "2019-01-16 19:32:31.470758"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/18
+Completed 302 Found in 10ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/quotes/18" for 127.0.0.1 at 2019-01-16 20:32:31 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:32:32 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:32:48 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:32:51 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8dYPIc576I4pOwDURON5GZ4pIitNt09KoWZgZM7mX8ZF3Jdafrr86Dd5hHYBhA+j2XYDoehuXtpARDD0abAHbg==", "quote"=>{"text"=>"Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom."}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", "Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom."], ["created_at", "2019-01-16 19:32:51.438847"], ["updated_at", "2019-01-16 19:32:51.438847"]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/19
+Completed 302 Found in 28ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/quotes/19" for 127.0.0.1 at 2019-01-16 20:32:51 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:32:52 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 97ms (Views: 92.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:33:04 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:33:08 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FALU554RCF2q+SySKCtnJ6gE0xMKDq5gYFZWalQ8qM6gCEycLtAcO7S7qDBtTBGd71vyma/Xv/CBdAb682rwZg==", "quote"=>{"text"=>" Just the fact that some geniuses were laughed at does not imply that all who are laughed at are geniuses. They laughed at Columbus, they laughed at Fulton, they laughed at the Wright brothers. But they also laughed at Bozo the Clown."}, "commit"=>"Save Quote"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", " Just the fact that some geniuses were laughed at does not imply that all who are laughed at are geniuses. They laughed at Columbus, they laughed at Fulton, they laughed at the Wright brothers. But they also laughed at Bozo the Clown."], ["created_at", "2019-01-16 19:33:08.940506"], ["updated_at", "2019-01-16 19:33:08.940506"]]
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/20
+Completed 302 Found in 21ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/quotes/20" for 127.0.0.1 at 2019-01-16 20:33:08 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 43ms (Views: 34.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:33:12 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 81ms (Views: 75.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:33:26 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/quotes" for 127.0.0.1 at 2019-01-16 20:33:29 +0100
+Processing by QuotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yncfaTKwhP1UnR7DI1X4Dq/KkF/OciYjkxgvfdl6ict+fYcSgnGQm0rfmmFmMo606JWx1WurN7NyOn/tfizRYw==", "quote"=>{"text"=>" I took a speed reading course and read ‘War and Peace’ in twenty minutes. It involves Russia."}, "commit"=>"Save Quote"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "quotes" ("text", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["text", " I took a speed reading course and read ‘War and Peace’ in twenty minutes. It involves Russia."], ["created_at", "2019-01-16 19:33:29.150423"], ["updated_at", "2019-01-16 19:33:29.150423"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/quotes/21
+Completed 302 Found in 19ms (ActiveRecord: 9.8ms)
+
+
+Started GET "/quotes/21" for 127.0.0.1 at 2019-01-16 20:33:29 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 43.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:33:31 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-16 20:34:23 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.2ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 134ms (Views: 127.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/12" for 127.0.0.1 at 2019-01-16 20:34:29 +0100
+Processing by QuotesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mQuote Load (0.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" WHERE "quotes"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering quotes/show.html.erb within layouts/application
+  Rendered quotes/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 49ms (Views: 43.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/quotes" for 127.0.0.1 at 2019-01-16 20:34:31 +0100
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.6ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 78ms (Views: 73.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 20:34:34 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (12.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (12.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(279088437195799245)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateQuotes (20190116182059)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE TABLE "quotes" ("id" bigserial primary key, "text" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190116182059"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-01-16 21:43:54.685717"], ["updated_at", "2019-01-16 21:43:54.685717"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(279088437195799245)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2019-01-16 22:44:13 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuotesController#index as HTML
+  Rendering quotes/index.html.erb within layouts/application
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT "quotes".* FROM "quotes"[0m
+  Rendered quotes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 175ms (Views: 163.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/quotes/new" for 127.0.0.1 at 2019-01-16 22:44:15 +0100
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+

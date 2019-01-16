@@ -1,0 +1,15 @@
+<h1>Quotes:</h1>
+<table>
+  <% @quotes.each do |quote| %>
+  <tr>
+    <td style="padding-bottom:50px;">
+      <%= truncate(quote.text, length: 50) %>
+    </td>
+    <td style="padding-bottom:50px;">
+      <%= link_to 'Show', quote_path(quote) %>
+    </td>
+  </tr>
+  <% end %>
+</table>
+<p><%= link_to 'Create a new quote', new_quote_path %>
+</p>
